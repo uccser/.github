@@ -1,4 +1,4 @@
-# Contribution Guide
+# Contributing Guide
 
 Firstly, thanks for wanting to contribute!
 This page lists a set of guidelines for contributing to a project.
