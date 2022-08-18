@@ -1,0 +1,26 @@
+name: ✨ Suggestion
+description: Suggest a new feature or content
+labels: ["suggestion"]
+title: "[Suggestion]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please make sure this feature request hasn't been already submitted by someone by looking through other open/closed issues
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Give us a brief description of the feature or enhancement you would like
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/uccser/.github/blob/master/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
