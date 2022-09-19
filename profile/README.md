@@ -1,5 +1,11 @@
 ![Logo for the University of Canterbury Computer Science Education Research Group](profile/logo.png)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile/logo-white.png">
+  <source media="(prefers-color-scheme: light)" srcset="profile/logo-colour.png">
+  <img alt="Logo for the University of Canterbury Computer Science Education Research Group" src="profile/logo-colour.png">
+</picture>
+
 Welcome to the GitHub page for the Computer Science Education Research Group at the University of Canterbury in Ōtautahi, Aotearoa (Christchurch, New Zealand).
 
 Have a look at our pinned repositories below to see our notable projects.
